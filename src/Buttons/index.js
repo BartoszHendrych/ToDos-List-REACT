@@ -8,8 +8,8 @@ const Buttons = ({ tasks, hideDoneTasks }) => (
                         {hideDoneTasks ? "Pokaż" : "Ukryj"} ukończone
                     </button>
                     <button 
-                        className="button__buttons"
-                        disabled={tasks.every(({ done }) => done)}
+                        className="button__buttons" 
+                        autofocus disabled={tasks.every(({ done }) => done)}
                     >
                         Ukończ wszystkie
                     </button>
