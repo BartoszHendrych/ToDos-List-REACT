@@ -17,8 +17,8 @@
 
 .form__button {
     font-family: 'Roboto', sans-serif;
-    background: teal;
-    color: white;
+    background: hsl(180, 100%, 25%);
+    color: hsl(0, 0%, 100%);
     border: none;
     cursor: pointer;
     padding: 10px;

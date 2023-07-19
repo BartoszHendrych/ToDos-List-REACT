@@ -12,7 +12,7 @@
 .button__buttons {
     padding: 20px;
     border: none;
-    color: teal;
+    color: hsl(180, 100%, 25%);
     background: transparent;
 }
 

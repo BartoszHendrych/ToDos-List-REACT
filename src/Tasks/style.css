@@ -8,7 +8,7 @@
     display: grid;
     grid-template-columns: auto 1fr auto;
     grid-gap: 20px;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid hsl(0, 0%, 80%);
     list-style-type: none;
     padding: 10px;
     align-items: center;
@@ -21,11 +21,11 @@
 .tasks__button {
     width: 30px;
     height: 30px;
-    background: white;
+    background: hsl(0, 0%, 100%);
     margin: 0;
     border: none;
     cursor: pointer;
-    color: white;
+    color: hsl(0, 0%, 100%);
 }
 
 .tasks__item--hidden {
@@ -33,11 +33,11 @@
 }
 
 .tasks__button--toggleDone {
-    background-color: #017b01;
+    background-color: hsl(120, 98%, 24%);
 }
 
 .tasks__button--remove {
-    background-color: #ff1616;
+    background-color: hsl(0, 100%, 54%);
 }
 
 .tasks__button--toggleDone:hover {
