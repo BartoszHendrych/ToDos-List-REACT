@@ -72,8 +72,7 @@ function App() {
                 />
             }
         />    
-        
-    </Container>
+      </Container>
   );
 };
 
