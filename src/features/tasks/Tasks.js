@@ -1,14 +1,14 @@
 import React from "react";
 import Form from "./Form";
 import TaskList from "./TasksList";
-import Buttons from "../tasks/Buttons";
+import Buttons from "./Buttons";
 import Section from "../../common/Section";
 import Header from "../../common/Header";
-import Container from "../../common/Container";
+import { Wrapper } from "./styled";
 
 function Tasks() {
   return (
-    <Container>
+    < Wrapper>
         <Header title="Lista zadań" />
         <Section 
             title="Dodaj nowe zadanie" 
@@ -20,10 +20,10 @@ function Tasks() {
                 <TaskList />
             }
             extraHeaderContent={
-                <Buttons />
+               <Buttons />
             }
         />    
-      </Container>
+      </ Wrapper>
   );
 };
 
