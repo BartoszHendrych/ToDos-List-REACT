@@ -3,9 +3,11 @@ import { Wrapper, Button } from "./styled";
 import { selectTasks, toggleHideDone, selectHideDone, setAllDone } from "../taskSlice";
 
 const Buttons = () => {
-    const tasks = useSelector(selectTasks);
+    const { tasks } = useSelector(selectTasks);
     const hideDone = useSelector(selectHideDone);
+
     const dispatch = useDispatch();
+    
     return (
         <Wrapper>
             {tasks.length > 0 && (
