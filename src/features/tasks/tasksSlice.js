@@ -1,5 +1,5 @@
 import { createSlice } from '@reduxjs/toolkit';
-import { getTasksFromLocalStorage } from './tasksLocalStorage';
+import {getTasksFromLocalStorage} from "../tasks/tasksLocalStorage";
 
 const tasksSlice = createSlice({
     name: 'tasks',
@@ -43,7 +43,11 @@ export const {
     fetchExampleTasks,
     setTasks,
  } = tasksSlice.actions;
-export const selectTasks = state => state.tasks;
-export const selectHideDone = state => selectTasks(state).hideDone;
-export const selectTaskDone = state => selectTasks(state).taskDone;
+
+export const selectTasksState = state => state.tasks;
+
+export const selectTasks = state => selectTasksState(state).tasks;
+export const selectHideDone = state => selectTasksState(state).hideDone;
+export const selectTaskDone = state => selectTasksState(state).taskDone;
+
 export default tasksSlice.reducer;
