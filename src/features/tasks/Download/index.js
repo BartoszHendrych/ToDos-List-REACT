@@ -1,5 +1,5 @@
 import { useDispatch } from "react-redux";
-import { fetchExampleTasks } from "../taskSlice";
+import { fetchExampleTasks } from "../tasksSlice";
 import { Wrapper, Button } from "./styled";
 
 const Download = () => {
