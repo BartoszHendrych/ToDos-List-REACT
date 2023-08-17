@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const Wrapper = styled.section`
     background-color: hsl(0, 0%, 100%);
     margin: 20px auto;
+    display: grid;
 `;
 
 export const Header = styled.header`

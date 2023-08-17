@@ -4,6 +4,7 @@ import TaskList from "./TasksList";
 import Buttons from "./Buttons";
 import Section from "../../common/Section";
 import Header from "../../common/Header";
+import Download from "./Download";
 import { Wrapper } from "./styled";
 
 function Tasks() {
@@ -12,7 +13,8 @@ function Tasks() {
         <Header title="Lista zadań" />
         <Section 
             title="Dodaj nowe zadanie" 
-            body={<Form />} 
+            body={<Form />}
+            extraHeaderButton={<Download />}
         />
         <Section
             title="Lista zadań"
