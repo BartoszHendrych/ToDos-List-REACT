@@ -12,6 +12,5 @@ function* fetchExampleTasksHandler() {
 }
 
 export function* watchFetchExampleTasks() {
-    console.log("Saga jest podłacznona");
     yield takeEvery(fetchExampleTasks.type,fetchExampleTasksHandler);
 }
