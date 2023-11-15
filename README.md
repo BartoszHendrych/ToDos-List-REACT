@@ -4,10 +4,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 https://bartoszhendrych.github.io/list-todo-react/
 
-## Simple presentation
-
-![gif](public/Animation.gif)
-
 ## Available Scripts
 
 In the project directory, you can run:
