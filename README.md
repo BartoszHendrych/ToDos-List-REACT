@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-https://bartoszhendrych.github.io/list-todo-react/
+https://bartoszhendrych.github.io/ToDos-List-REACT/
 
 ## Simple presentation
 
