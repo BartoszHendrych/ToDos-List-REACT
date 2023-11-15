@@ -1,8 +1,8 @@
 {
-  "name": "ToDos-List-REACT",
+  "name": "list-todo",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://bartoszhendrych.github.io/ToDos-List-REACT/",
+  "homepage": "https://bartoszhendrych.github.io/list-todo-react/",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.5",
     "@testing-library/jest-dom": "^5.16.5",
